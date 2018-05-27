@@ -1,0 +1,19 @@
+{
+    "name": "memorizer",
+    "authors": ["KanzakiKino"],
+    "description": "An application that helps your memorizing.",
+    "copyright": "Copyright © 2018, KanzakiKino",
+    "license": "LGPL-3.0",
+
+    "configurations": [
+        {
+            "name": "default",
+
+            "targetType": "executable",
+            "targetName": "memorizer",
+            "targetPath": "./bin",
+
+            "sourcePaths": ["./src"]
+        }
+    ]
+}
